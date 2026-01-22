@@ -37,8 +37,7 @@ The lab consists of the following components:
   - Ubuntu Linux (SIEM server)  
   - Windows 10/11 (endpoint)
 
-### Architecture Overview
-
+## Architecture Overview
 [ Windows Endpoint ]
 |
 |  Winlogbeat + Sysmon
