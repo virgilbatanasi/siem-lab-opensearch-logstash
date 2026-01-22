@@ -38,19 +38,20 @@ The lab consists of the following components:
   - Windows 10/11 (endpoint)
 
 ### Architecture Overview
-[Windows Endpoint]
-      |
-      |  Winlogbeat + Sysmon
-      v
-[Logstash Server on Linux] (Docker)
-      |
-      |  Parsed & Enriched Logs
-      v
-[OpenSearch]
-      |
-      |  Dashboards & Visualizations
-      v
-[OpenSearch Dashboards]
+
+[ Windows Endpoint ]
+|
+|  Winlogbeat + Sysmon
+v
+[ Logstash Server (Docker on Linux) ]
+|
+|  Parsed & Enriched Logs
+v
+[ OpenSearch ]
+|
+|  Dashboards & Visualizations
+v
+[ OpenSearch Dashboards ]
 
 ## Features
 
