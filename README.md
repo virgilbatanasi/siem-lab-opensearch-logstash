@@ -121,14 +121,8 @@ The script performs:
 
 This script handles the entire Windows setup with no manual steps required.
 
-**Repository Structure**
-/
-├── docker-compose.yml        # OpenSearch + Dashboards + Logstash stack
-├── logstash.conf             # Logstash pipeline configuration
-├── deploy_winlogbeat_with_sysmon.ps1   # Automated Winlogbeat + Sysmon installer
-└── README.md
-
 **Testing the Pipeline**
+
 Once the Windows script has been executed and the Docker stack is running:
 
 1. Generate events on the Windows machine (PowerShell commands, process launches, network activity, Atomic Red Team)
